@@ -1,0 +1,43 @@
+.container-fluid{
+	padding:0px !important;
+}
+.outter-monitor{
+	position: relative;
+	background-color:#333333ff;
+	border-radius:50px 50px 0px 0px; /* top-left, top-right, bottom-right, bottom-left */
+	max-height:91vh;
+	width: 100%;
+	height:auto;
+	padding-top:5vh;
+	padding-left:4%;
+	padding-right:4%;
+
+	/*row function without margin -15px*/
+	display: flex; 
+	flex-wrap: wrap;
+
+	
+}
+.inner-monitor{
+	position:relative;
+	vertical-align: middle;
+	width: 100%;
+	padding-top:5px;
+	border-radius:50px 50px 0px 0px; /* top-left, top-right, bottom-right, bottom-left */
+	background-color:#ff9955ff;
+	
+	/*row function without margin -15px*/
+	display: flex; 
+	flex-wrap: wrap;
+
+}
+.moniter-base{
+	position:relative;
+	width: 100%;
+	height:auto;
+	bottom:0px;
+
+	/*row function without margin -15px*/
+	display: flex; 
+	flex-wrap: wrap;
+}

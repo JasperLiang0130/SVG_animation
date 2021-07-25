@@ -1,0 +1,82 @@
+.clip-position{
+	padding-top: 20%;
+}
+
+.clip-position-2{
+	padding-top: 20%;
+}
+
+.clip-position-3{
+	padding-top: 40%;
+
+}
+.clip1{
+	transform: rotate(150deg);
+	float: right;
+}
+.clip2{
+	transform: rotate(45deg);
+}
+.clip3{
+	transform: rotate(0deg);
+}
+.pen{
+	max-height: 40vh;
+	max-width: auto;
+	height:auto;
+	width: auto;
+}
+
+.phone{
+	max-height:50vh;
+	max-width: auto;
+	height:auto;
+	width:auto;
+}
+.phone-position{
+	float:right;
+}
+
+.camera{
+	max-height:45vh;
+	max-width: auto;
+	height:auto;
+	width:auto;
+	float:right;
+}
+
+.newspaper-screen{
+	position: absolute;
+}
+.info{
+	position:absolute;
+	transform: translate(-50%,-50%);
+	top:52%;
+	left:50%;
+	width: 40%;
+}
+.newspaper{
+	max-width: 100%;
+	max-height: auto;
+	width:auto;
+	height: 87vh;
+}
+.magnifier{
+	max-height: 30vh;
+	max-width: auto;
+	height:auto;
+	width:auto;
+	position: absolute;
+	bottom:10%;
+}
+
+.watch{
+	max-width:auto;
+	max-height: 60vh;
+	width: auto;
+	height:auto;
+	position: absolute;
+	right:-15%;
+}
+
+

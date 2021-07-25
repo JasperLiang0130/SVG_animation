@@ -1,0 +1,69 @@
+/*phone background*/
+#path21622{
+	animation-name: phoneCall;
+	animation-duration: 9s;
+	animation-iteration-count: infinite;
+}
+@keyframes phoneCall {
+	0%   { fill:grey; }
+	25%	 { fill:grey; }
+	60%	 { fill:black; }
+	75%  { fill:black;}
+	100% { fill:black; }
+}
+/*phone call content*/
+#tspan15580, #tspan15576, #g12663, #g12659{
+	animation-name: call_incoming;
+	animation-duration: 9s;
+	animation-iteration-count: infinite;
+}
+@keyframes call_incoming {
+	0% 		{	visibility:hidden;	}
+	25%		{	visibility:hidden;	}
+	60%		{	visibility:visible;	}
+	75%		{	visibility:visible;	}
+	100% 	{	visibility:visible;	}
+}
+
+/*magnifier glass find fake news*/
+#fakenews{
+	animation-name: findfakenews;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	visibility:hidden;
+}
+@keyframes findfakenews {
+	0% {
+    opacity: 0;
+  }
+  80% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+
+
+/*setting center of clock*/
+#clock{
+	transform: translate(102px,262px);
+}
+/*watch click hands spin*/
+#second{
+	animation: handrotation infinite linear;
+	animation-duration:3s;
+}
+#hour{
+	animation: handrotation infinite linear;
+	animation-duration:9s;
+} 
+#minute{
+	animation: handrotation infinite linear;
+	animation-duration:6s;
+}
+@keyframes handrotation {
+	to{
+		transform:rotate(-1turn);
+	}	
+}
+
