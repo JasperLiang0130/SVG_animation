@@ -1,3 +1,5 @@
-# SVG_animation
+# This is html with svg animation. 
+Basically I made animcation in css and embed css into svg file. 
+This is output as below.
 
-![](./homepage.html)
+![](./svg_animation.gif)
