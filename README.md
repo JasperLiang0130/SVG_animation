@@ -1,3 +1,3 @@
 # SVG_animation
 
-![](./SVG_animation/homepage.html)
+![](./SVG_animation/image/watch.svg)
